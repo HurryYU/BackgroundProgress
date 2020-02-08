@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MoneyItemView">
+        <attr name="left_text_color" format="color" />
+        <attr name="right_text_color" format="color" />
+        <attr name="left_text_size" format="dimension" />
+        <attr name="right_text_size" format="dimension" />
+        <attr name="left_text" format="string" />
+        <attr name="right_text" format="string" />
+
+        <attr name="process_background_color" format="color" />
+        <attr name="process_percent" format="float" />
+
+        <attr name="left_text_margin_left" format="dimension" />
+        <attr name="right_text_margin_right" format="dimension" />
+    </declare-styleable>
+</resources>

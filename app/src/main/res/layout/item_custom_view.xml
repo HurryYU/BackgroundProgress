@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.hurryyu.bgprogress.MoneyItemView
+        android:id="@+id/money_item_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:left_text_color="#E19190"
+        app:left_text_margin_left="4dp"
+        app:left_text_size="13sp"
+        app:process_background_color="#FEF0ED"
+        app:right_text_color="#97969B"
+        app:right_text_margin_right="4dp"
+        app:right_text_size="13sp"
+        tools:left_text="left"
+        tools:process_percent="0.3"
+        tools:right_text="right" />
+
+</FrameLayout>
